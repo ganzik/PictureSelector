@@ -5,7 +5,7 @@
     <string name="picture_take_picture">촬영</string>
     <string name="picture_rule">사진이나 비디오를 동시에 선택할 수 없습니다.</string>
     <string name="picture_message_max_num">최대 %1$s개의 사진을 선택할 수 있습니다</string>
-    <string name="picture_min_video_num">최소한 비디오 선택은 %1$s 달러 자 이상이어야 합니다.</string>
+    <string name="picture_min_video_num">최소 %1$s개 이상의 비디오를 선택하세요.</string>
     <string name="picture_message_video_max_num">최대 %1$s개의 동영상을 선택할 수 있습니다.</string>
     <string name="picture_message_audio_max_num">최대 %1$s개의 오디오를 선택할 수 있습니다.</string>
     <string name="picture_preview">미리 보기</string>
@@ -30,8 +30,8 @@
     <string name="picture_warning">미디어 파일 없음！</string>
     <string name="picture_prompt">제시</string>
     <string name="picture_prompt_content">그림을 휴대 전화에 저장할지 여부？</string>
-    <string name="picture_save_error">그림 저장 실패</string>
-    <string name="picture_save_success">그림 저장 성공</string>
+    <string name="picture_save_error">사진 저장 실패</string>
+    <string name="picture_save_success">사진 저장 성공</string>
     <string name="picture_all_audio">모든 오디오</string>
     <string name="picture_tape">녹음</string>
     <string name="picture_play_audio">재생</string>
