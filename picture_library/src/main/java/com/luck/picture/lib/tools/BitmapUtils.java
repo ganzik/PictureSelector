@@ -39,7 +39,7 @@ public class BitmapUtils {
             try {
                 // 针对相片有旋转问题的处理方式
                 BitmapFactory.Options opts = new BitmapFactory.Options();
-                opts.inSampleSize = 1;
+                opts.inSampleSize = 2;
                 File file = new File(path);
                 Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath(), opts);
                 bitmap = rotatingImage(bitmap, degree);
