@@ -79,7 +79,7 @@ class Engine {
 
     File compress() throws IOException {
         BitmapFactory.Options options = new BitmapFactory.Options();
-        options.inSampleSize = 2;
+        options.inSampleSize = 1;
 //         options.inSampleSize = computeSize();
         Bitmap tagBitmap = BitmapFactory.decodeStream(srcImg.open(), null, options);
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
